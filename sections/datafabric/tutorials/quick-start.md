@@ -24,7 +24,7 @@ The Veracity Data Platform DataAPI is an API where developers and applications c
 
 The below sample assumes that the user has a Subscription Key from the Veracity Portal.
 
-We are going to access the Data API service via http requests and in our implementation we will use a custom HttpClient based on from System.Net.Http.
+We are going to access the Data API service via HTTP requests and in our implementation we will use a custom HttpClient based on from System.Net.Http.
 
 This example requires:
 * [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/)
@@ -32,7 +32,7 @@ This example requires:
 
 We will also reuse the authentication code (for application) from [here](https://developer.veracity.com/doc/data-fabric-api#Authorization-snippet)
 
-To make communication with the Data fabric apis, we have created a sample helper to use:  
+To make communication with the Data fabric APIs, we have created a sample helper to use:  
 
     public class DataFabricClient
             {
@@ -74,7 +74,7 @@ To make communication with the Data fabric apis, we have created a sample helper
 
 This client gets the bearer token(from the TokenProvider provided in the first example).
 
-To view all classes/models used, see here
+To view all classes/models used, see here (missing link?)
 
 ## 1st scenario:
 
@@ -207,15 +207,15 @@ Container creation can take up to 2 min. So you should add some retry logic if t
 
             //If there is no container, you should retry retrieve the containers, and check again
 
-### Create a key for your self
+### Create a key for yourself
 
 After your container is created, it's time to give yourself access to the container.
 
 Replace the {resourceId} with container id from last step
 
-To see what each attribute of a key template is, read more here
+To see what each attribute of a key template is, read more here (missing link?)
 
-This will create a "AccessSharingId" the id will later be used to fetch the SAS token.  
+This will create a "AccessSharingId" the Id will later be used to fetch the SAS token.  
 
     var client = new DataFabricClient();
 
@@ -258,7 +258,7 @@ Now it's time to get your SAS token and use it!
 
 [For more information on SAS tokens](https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
 
-Use the accessSharingId you retrieved from the last step and replace {accessSharingId}.  
+Use the AccessSharingId you retrieved from the last step and replace {accessSharingId}.  
 
             var client = new DataFabricClient();
 
