@@ -10,9 +10,9 @@ This is a quick start on how to use the Data Fabrics API.
 **This guide will cover this: 1st scenario:**
 * Authenticate
 * Create container
-* Create a key for your self
+* Create a key for yourself
 * Push Data to your new container
-* Share key to a other user.
+* Share key to another user
 
 **2nd scenario:**
 * Find Resource
