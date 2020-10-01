@@ -85,7 +85,7 @@ Retrieve the access token:
 
 To acquire the Bearer Token needed for the API requests it is possible to authenticate with the code below. It's important to register any new app in the Azure Active Directory as a Native App. This App ID, together with the tenant name from Azure AD will be used to obtain an authentication key.
 
-The below code in .NET shows how to programmatically get the Bearer Key. This code is also available here.
+The below code in .NET shows how to programmatically get the Bearer Key. This code is also available here (missing link?).
 
 Firstly, input data is required:
 * Tenant - tenant name from Azure Portal (Active Directory)
